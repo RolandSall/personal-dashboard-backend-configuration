@@ -1,1 +1,9 @@
-
+spring:
+  data:
+    mongodb:
+      database: {cipher}e92e9ee1ed78ea250b8f21d59f7c9f34f5790ee1370a84aaa6e83182b0442a0b
+      host: localhost
+      port: 27017
+      auto-index-creation: true
+  application:
+    name: todo-service
